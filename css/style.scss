@@ -102,15 +102,13 @@ $secondary-color: #8491a0;
 
         li {
           list-style: none;
-          padding: 32px 24px;
+          
           @media screen and (max-width:765px) {
             width: 100%;
             background-color: #181823;
             border-bottom: .1px solid #434444;
           }
-          &:hover a{
-            color: rgb(90, 236, 236);
-          }
+         
 
           &.active {
             background: #5221e6;
@@ -128,18 +126,8 @@ $secondary-color: #8491a0;
             color: $secondary-color;
             font-size: 1rem;
             font-weight: 700;
-            @media screen and (max-width:765px) {
-              padding: 25px 85% 20px 0;
-            }
-            @media screen and (max-width:550px) {
-              padding: 25px 80% 20px 0;
-            }
-            @media screen and (max-width:450px) {
-              padding: 25px 75% 20px 0;
-            }
-            @media screen and (max-width:350px) {
-              padding: 25px 70% 20px 0;
-            }
+            padding: 32px 24px;
+            display: block;
 
             &:hover {
               color: rgb(90, 236, 236);
@@ -589,6 +577,8 @@ $secondary-color: #8491a0;
           transition: .35s;
           color: $primary-color;
           word-spacing: 2px;
+          cursor: pointer;
+
           &:hover{
             background-color: #5221e6;
             transform: translateY(-5px);

@@ -135,7 +135,6 @@
 
 .container section#home nav ul li {
   list-style: none;
-  padding: 32px 24px;
 }
 
 @media screen and (max-width: 765px) {
@@ -144,10 +143,6 @@
     background-color: #181823;
     border-bottom: .1px solid #434444;
   }
-}
-
-.container section#home nav ul li:hover a {
-  color: #5aecec;
 }
 
 .container section#home nav ul li.active {
@@ -167,30 +162,8 @@
   color: #8491a0;
   font-size: 1rem;
   font-weight: 700;
-}
-
-@media screen and (max-width: 765px) {
-  .container section#home nav ul li a {
-    padding: 25px 85% 20px 0;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .container section#home nav ul li a {
-    padding: 25px 80% 20px 0;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .container section#home nav ul li a {
-    padding: 25px 75% 20px 0;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .container section#home nav ul li a {
-    padding: 25px 70% 20px 0;
-  }
+  padding: 32px 24px;
+  display: block;
 }
 
 .container section#home nav ul li a:hover {
@@ -839,6 +812,7 @@
   transition: .35s;
   color: #fff;
   word-spacing: 2px;
+  cursor: pointer;
 }
 
 .container section#work .row-2 .button button:hover {
